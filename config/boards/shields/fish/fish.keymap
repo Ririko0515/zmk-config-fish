@@ -148,7 +148,7 @@
         layer_mouse {
             bindings = <
                         &kp W       &kp E       &kp R       &kp T               &msc SCRL_UP &mkp MB1   &mmv MOVE_UP &mkp MB2   
-&kp Q       &kp A       &kp S       &kp D       &kp F       &kp G               &msc SCRL_DOWN &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans &tog 1 
+&kp Q       &kp A       &kp S       &kp D       &kp F       &kp G               &msc SCRL_DOWN &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans &tog 7 
             &kp Z       &kp X       &kp C       &kp V                                       &msc SCRL_LEFT &msc SCRL_RIGHT &trans &trans    
                                                 &mt LSHFT B &mt LCTRL SPACE     &trans      &trans      
             >;

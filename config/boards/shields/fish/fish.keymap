@@ -129,17 +129,17 @@
 
         layer_mac_navi {
             bindings = <
-                        &kp RBKT    &kp AT      &kp NUHS    &kp CARET           &kp C_VOL_UP &kp ESC    &kp UP      &kp DEL     
+                        &kp RBKT    &kp AT      &kp NUHS    &kp CARET           &kp C_VOL_UP &kp ESC    &kp UP      &none       
 &kp LBKT    &kp HASH    &mt LCTRL STAR &mt LALT AMPS &mt LSHFT LPAR &kp LS(INT3) &kp C_VOL_DN &kp LEFT  &kp DOWN    &kp RIGHT   &kp C_BRI_UP &tog 1     
-            &kp INT1    &kp RBRC    &kp LBRC    &kp TILDE2                                  &none       &none       &none       &kp C_BRI_DN 
+            &kp INT1    &kp RBRC    &kp LBRC    &kp TILDE2                                  &none       &none       &kp DEL     &kp C_BRI_DN 
                                                 &lt 6 B     &mt LGUI SPACE      &trans      &trans      
             >;
         };
 
         layer_system {
             bindings = <
-                        &none       &bt BT_SEL 4 &none      &out OUT_TOG        &tog 7      &none       &none       &none       
-&kp F1      &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp F6          &kp F7      &none       &none       &none       &none       &kp F12     
+                        &bt BT_SEL 4 &bt BT_CLR &bt BT_CLR_ALL &out OUT_TOG     &tog 7      &none       &msc SCRL_UP &none      
+&kp F1      &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp F6          &kp F7      &msc SCRL_LEFT &msc SCRL_DOWN &msc SCRL_RIGHT &none &kp F12 
             &kp F2      &kp F3      &kp F4      &kp F5                                      &kp F8      &kp F9      &kp F10     &kp F11     
                                                 &trans      &trans              &trans      &trans      
             >;
@@ -150,7 +150,7 @@
                         &kp W       &kp E       &kp R       &kp T               &msc SCRL_UP &mkp MB1   &mmv MOVE_UP &mkp MB2   
 &kp Q       &kp A       &kp S       &kp D       &kp F       &kp G               &msc SCRL_DOWN &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans &tog 1 
             &kp Z       &kp X       &kp C       &kp V                                       &msc SCRL_LEFT &msc SCRL_RIGHT &trans &trans    
-                                                &mt LSHFT B &kp LCTRL           &trans      &trans      
+                                                &mt LSHFT B &mt LCTRL SPACE     &trans      &trans      
             >;
         };
     };

@@ -143,7 +143,7 @@
         layer_mac_navi {
             bindings = <
                         &kp RBKT    &kp AT      &kp NUHS    &kp CARET           &kp C_VOL_UP &kp ESC    &kp UP      &none       
-&kp LBKT    &kp HASH    &mt LCTRL STAR &mt LALT AMPS &mt LSHFT LPAR &kp LS(INT3) &kp C_VOL_DN &kp LEFT  &kp DOWN    &kp RIGHT   &kp C_BRI_UP &tog 1     
+&kp LBKT    &kp HASH    &mt LCTRL STAR &mt LALT AMPS &mt LSHFT LPAR &kp LS(INT3) &kp C_VOL_DN &kp LEFT  &kp DOWN    &kp RIGHT   &kp C_BRI_UP &tog 3     
             &kp INT1    &kp RBRC    &kp LBRC    &kp TILDE2                                  &none       &none       &none       &kp C_BRI_DN 
                                                 &lt 6 B     &mt LGUI SPACE      &trans      &trans      
             >;

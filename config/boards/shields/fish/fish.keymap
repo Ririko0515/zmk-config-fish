@@ -147,10 +147,10 @@
 
         layer_game {
             bindings = <
-                        &kp W       &kp E       &kp R       &kp T               &trans      &kp KP_N7   &kp KP_N8   &kp KP_N9   
-&kp Q       &kp A       &kp S       &kp D       &kp F       &kp G               &trans      &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_N0   &tog 7      
-            &kp Z       &kp X       &kp C       &kp V                                       &kp KP_N1   &kp KP_N2   &kp KP_N3   &trans      
-                                                &kp B       &kp SPACE           &trans      &trans      
+                        &kp W       &kp E       &kp R       &kp T               &none      &kp KP_N7   &kp KP_N8   &kp KP_N9   
+&kp Q       &kp A       &kp S       &kp D       &kp F       &kp G               &none      &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_N0   &tog 7      
+            &kp Z       &kp X       &kp C       &kp V                                       &kp KP_N1   &kp KP_N2   &kp KP_N3   &none      
+                                                &kp B       &kp SPACE           &kp BSPC      &kp RET      
             >;
         };
     };

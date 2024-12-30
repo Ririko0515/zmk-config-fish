@@ -1,6 +1,9 @@
 // キーマップを更新する方法は https://o24.works/fish/guide を参照
 // 視覚的に編集するには https://o24.works/fish/editor を参照
 
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 15    
+// default: 600,10
 
 // 定義を呼んでくる
 #include <behaviors.dtsi>
@@ -38,6 +41,21 @@
 &key_repeat {
 };
 
+&mmv {
+    x-input-code = <INPUT_REL_X>;
+    y-input-code = <INPUT_REL_Y>;
+    time-to-max-speed-ms = <300>;
+    acceleration-exponent = <1>;
+    // default: 300,1
+};
+
+&msc {
+    x-input-code = <INPUT_REL_HWHEEL>;
+    y-input-code = <INPUT_REL_WHEEL>;
+    time-to-max-speed-ms = <300>;
+    acceleration-exponent = <1>;
+    // default: 300,1
+};
 
 / {
     // 独自の入力を定義できる（上級者向け）
